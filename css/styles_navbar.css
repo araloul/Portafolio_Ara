@@ -1,0 +1,107 @@
+/* IMPORTAMOS FUENTE */
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family:"Bungee";
+}
+
+.navbar{
+  
+
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background-color: white;
+  border: 3px solid #000;
+  box-shadow: 2px 4px #000;
+
+ 
+}
+
+.navbar a {
+  font-size: 15px;
+  
+  text-decoration: none;
+  margin-left: 40px;
+}
+
+
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+#index{
+  background-color: #F280B6;
+  border: 3px solid #000;
+  border-radius: 6px;
+  cursor: pointer;
+}
+#index:hover{
+  color: white;
+}
+
+#contacto{
+  background-color: #F5D345;
+  border: 3px solid #000;
+  border-radius: 6px;
+}
+#contacto:hover{
+  color: white;
+}
+#trabajos{
+  background-color: #2DADD6;
+  border: 3px solid #000;
+  border-radius: 6px;
+  
+}
+#trabajos:hover{
+  color: white;
+}
+
+ #github{
+  color: #000;
+  text-decoration: none;
+  margin-right: 20px;
+  
+}
+#github:hover{
+  color: #F280B6;
+
+}
+#linkedin{
+  color: #000;
+  text-decoration: none;
+  margin-right: 20px;
+  
+}
+#linkedin:hover{
+  color:#F5D345;
+}
+
+#mail{
+  color: #000;
+  text-decoration: none;
+  margin-right: 20px;
+  
+}
+
+#mail:hover{
+  color: #2DADD6;
+}
+
+.icons-container {
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  flex-grow: 1;
+}
+
+
+/* Estilo para la clase "active" (página actual) */
+
